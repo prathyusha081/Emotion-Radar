@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Audio Emotional Analysis</title>
+<style>
+body {
+ font-family: Arial, sans-serif;
+}
+
+.header {
+ background-color: #e09999;
+ padding: 20px;
+ text-align: center;
+}
+
+.nav {
+ display: flex;
+ justify-content: space-around;
+ background-color: #e09999;
+ padding: 10px;
+}
+
+.nav a {
+ text-decoration: none;
+ color: black;
+}
+
+.nav a:hover {
+ background-color: #ccc;
+ color: black;
+}
+
+.content {
+ margin: 20px;
+}
+
+.image-section, .text-section {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 30px;
+}
+
+.image-section img {
+ max-width: 100%;
+ height: auto;
+}</style>
+</head>
+<body>
+
+<div class="header">
+ <h1> Audio Emotional Analysis?</h1>
+</div>
+<p> 
+
+
+
+</p>
+
+<div class="nav">
+ <a href="index.html">Home</a>
+ <a href="video.html">Video</a>
+ <a href="text.html">Text</a>
+</div>
+
+<div class="content">
+ <h2>What is Audio Emotional Analysis?</h2>
+<p>Audio analysis encompasses the multifaceted study of sound data, aiming to extract, interpret, and derive meaningful information from audio signals. Through signal processing techniques like Fourier transforms and time-frequency analysis, audio signals are dissected into fundamental components for feature extraction, including Mel-frequency cepstral coefficients (MFCCs), pitch, intensity variations, and rhythmic patterns. Speech recognition, a critical aspect of this field, involves converting spoken language into text using automatic speech recognition (ASR) systems, leveraging complex algorithms and machine learning models. Emotion recognition within speech, classification of audio content (e.g., music genre classification), and environmental sound analysis stand as significant applications. Machine learning algorithms, notably neural networks and support vector machines (SVMs), contribute extensively to processing audio data, uncovering patterns, and making predictive classifications based on learned audio features. These advancements find applications in diverse fields such as human-computer interaction, healthcare, entertainment, and security, continually expanding the horizons of audio analysis and its profound impact across industries.</p>
+
+
+
+
+ </p>
+  
+ <div class="image-section">
+    <img src="audioemr.jpg" alt="Audio Image">
+ </div>
+  
+ <div class="text-section">
+    <p>In our multi-modal emotion recognition system, the audio analysis module is designed to comprehend emotions embedded within sound data. We've implemented Mel-frequency cepstral coefficient (MFCC) extraction techniques to capture intricate spectral details from the audio signals. These coefficients serve as essential features, representing frequency content and aiding in emotion classification. Utilizing LSTM (Long Short-Term Memory) networks, we've built a framework capable of understanding sequential patterns within these MFCC sequences, enabling the model to discern emotional cues over time. Additionally, for non-textual audio inputs like whispers, we've integrated a conversion mechanism that translates such audio data into text. This transformed text becomes amenable to the same emotion analysis used for textual inputs, facilitating a uniform approach to emotion recognition across modalities. Overall, our audio analysis pipeline, comprising MFCC extraction, LSTM modeling, and whisper-to-text conversion, enables the system to decipher nuanced emotions within audio data, contributing significantly to our comprehensive multi-modal emotion recognition framework.
+
+
+
+
+
+      </p>
+ </div>
+</div>
+
+</body>
+</html>
